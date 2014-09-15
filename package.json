@@ -1,17 +1,17 @@
 {
-  "name": "mean-template",
+  "name": "yum.my",
   "version": "0.0.0",
-  "description": "The MEAN Template",
+  "description": "a social networking site",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nss-cohort-2014-06-07/mean-template"
+    "url": "https://github.com/SarahMPearson/yum.my"
   },
-  "author": "Chyld Medford <chyld.medford@gmail.com>",
+  "author": "Sarah Pearson <sarahp@me.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nss-cohort-2014-06-07/mean-template/issues"
+    "url": "https://github.com/SarahMPearson/yum.my/issues"
   },
-  "homepage": "https://github.com/nss-cohort-2014-06-07/mean-template",
+  "homepage": "https://github.com/SarahMPearson/yum.my",
   "dependencies": {
     "async": "^0.9.0",
     "bcrypt": "^0.8.0",

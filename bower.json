@@ -1,11 +1,11 @@
 {
-  "name": "mean-template",
+  "name": "yum.my",
   "version": "0.0.0",
-  "homepage": "https://github.com/nss-cohort-2014-06-07/mean-template",
+  "homepage": "https://github.com/SarahMPearson/yum.my",
   "authors": [
-    "Chyld Medford <chyld.medford@gmail.com>"
+    "Sarah Pearson <sarahp@me.com>"
   ],
-  "description": "The MEAN Template",
+  "description": "a social bookmarking site",
   "license": "MIT",
   "dependencies": {
     "angular": "1.3.0-rc.1",
