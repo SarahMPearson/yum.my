@@ -2,10 +2,10 @@
   'use strict';
 
   angular.module('yummy')
-  .factory('Home', ['$http', function($http){
+  .factory('Register', ['$http', function($http){
 
     function getMessage(){
-      return $http.get('/home');
+      return $http.get('/register');
     }
 
     return {getMessage:getMessage};
