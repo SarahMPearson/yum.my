@@ -11,10 +11,11 @@ exports.register = function(req, res){
     }
   });
 };
+
 exports.login = function(req, res){
   User.login(req.body, function(err, user){
     if(user){
-      req.session.regenerate(function(){ //regenerate means gives you a new session key?
+      req.session.regenerate(function(){
         req.session.userId = user._id;
         req.session.save(function(){
           res.setHeader('X-Authenticated-User', user.email);
@@ -33,3 +34,4 @@ exports.logout = function(req, res){
     res.status(200).end();
   });
 };
+

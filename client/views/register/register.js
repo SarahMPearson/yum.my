@@ -1,7 +1,7 @@
 (function(){
   'use strict';
 
-  angular.module('yummy')
+  angular.module('yum.my')
   .controller('RegisterCtrl', ['$scope', '$location', 'User', function($scope, $location, User){
     $scope.user = {};
 
